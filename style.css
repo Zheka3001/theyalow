@@ -398,3 +398,87 @@
 
     width: 896px;
 }
+
+.main__device-support-info {
+    height: 499px;
+    
+    background-image: url(/assets/images/device-support-bg.svg);
+}
+
+.device-support__wrapper {
+    padding: 43px calc((100% - 1020px) / 2) 98px;
+    position: relative;
+}
+
+.device-support__title {
+    color: #F5C506;
+    font: 400 43px "Segoe WP", "PTSans-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+    margin-left: 217px;
+}
+
+.device-support__image-group {
+    float: left;
+}
+
+.free-promo {
+    position: absolute;
+    display: inline-block;
+    background-color: #F5C506;
+    border-radius: 50%;
+}
+
+.free-promo__wrapper {
+    height: 117px;
+    width: 117px;
+    display: flex;
+}
+
+.free-promo__text { 
+    margin: auto;
+    color: #ffffff;
+    font: 400 16px "Segoe WP", "PTSans-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+}
+
+.device-support__image-device-monitor {
+    margin: 45px 25px 10px 21px;
+}
+
+.device-support__image-device-tablet {
+    margin: 95px 25px 50px 0;
+}
+
+.device-support__image-device-phone {
+    margin: 210px 0px 50px 0;
+}
+
+.device-support__virtues-group {
+    float: right;
+    width: 365px;
+    margin-top: 105px;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.device-support-virtue {
+    margin-bottom:17px; 
+    color: #A9A9A7; 
+    font: 400 22px "Segoe WP", "PTSans-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+}
+
+.device-support-virtue:last-child {
+    margin-bottom: 0;
+}
+
+.device-support-virtue::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #F5C506;
+    margin-right: 20px;
+}
