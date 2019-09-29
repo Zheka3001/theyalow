@@ -395,6 +395,10 @@
     margin: 57px 0 0 83px;
 }
 
+.news-block__message-section {
+    display: none;
+}
+
 .main__scroll-bar {
     margin: 41px 0 0 212px;
 
@@ -511,4 +515,379 @@
 .logo__title_font-size_small {
     margin: 0 0 0 6px;
     font-size: 29px;
+}
+
+@media screen and (max-width: 640px) {
+
+.wrapper {
+    width: 100vw;
+    background-image: none;
+}
+
+.header {
+    width: calc(100vw - 1px);
+    height: 62px;
+    justify-content: stretch;
+}
+
+.logo {
+    width: 28vw;
+    height: 62px;
+    background-color: #474747;
+}
+
+.logo_position_header {
+    margin: 0;
+}
+
+.logo__icon {
+    margin: -5px 0 0 7px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.logo__title {
+    margin: 2px 0 0 8px;
+    font-size: 19px;
+}
+
+.header__navigation {
+    margin: 0;
+    height: 62px;
+    width: 72vw;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.header__link-group {
+    justify-content: center;
+    align-items: center;
+}
+
+.header__link-button {
+    height: 62px;
+
+    font-size: 19px;
+}
+
+.header__link-button_first {
+    width: 27vw;
+    
+}
+
+.header__link-button_first::before {
+    width: 25px;
+    height: 23px;
+    margin: -4px 13px 0 0px;
+    background-size: cover;
+}
+
+.header__link-button_second {
+    width: 20.7vw;
+    box-sizing: border-box;
+}
+
+.header__link-button_second::before {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px 0 -6px;
+}
+
+.header__link-button_third {
+    width: 24.3vw;
+    box-sizing: border-box;
+}
+
+.header__link-button_third::before {
+    width: 30px;
+    height: 23px;
+    background-size: cover;
+    margin: 0 13px 3px -9px;
+}
+
+.main {
+    width: 100vw;
+}
+
+.main__promo-section {
+    height: fit-content;
+}
+
+.main__video {
+    margin: 0;
+    width: 100vw;
+    height: 326px;
+    object-fit: cover;
+}
+
+.main__video-title {
+    display: none;
+}
+
+.main__button {
+    display: none;
+}
+
+.main__shadow-block {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 173px;
+    background-color: #f7f7f7;
+    background-image: url(./assets/images/description_section_background.png);
+    opacity: 0.7;
+}
+
+.main__description-columns {
+    position: relative;
+    width: 100vw;
+    height: 173px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    z-index: 2;
+}
+
+.main__shadow-block_first {
+    top: -4px;
+}
+
+.main__shadow-block_second {
+    top: -8px;
+}
+
+.main__description-item {
+    position: relative;
+    z-index: 2;
+    width: 33.33vw;
+    height: 174px;
+    border: 0;
+    
+}
+
+.main__description-item:last-child {
+    border-right: 0;
+}
+
+.main__description-icon_positioning_first {
+    margin: 33px 50px 0 0;
+    width: 89px;
+}
+
+.main__description-icon_positioning_second {
+    margin: 29px 0 0 6px;
+    width: 67px;
+}
+
+.main__description-icon_positioning_third {
+    margin: 28px 17px 0 0;
+    width: 68px;
+}
+
+.main__description-name {
+    font-size: 23px;
+}
+
+.main__description-name_positioning_first {
+    margin: 21px 35px 0px 0px;
+}
+
+.main__description-name_positioning_second {
+    margin: 16px 0 0 7px;
+}
+
+.main__description-name_positioning_third {
+    margin: 17px 7px 0 0;
+}
+
+.main__news-section {
+    height: 483px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #ffffff;
+    background-image: none;
+}
+
+.main__headline {
+    display: none;
+}
+
+.main__news-flow {
+    margin-top: 8px;
+    width: 100vw;
+    height: 509px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-block {
+    position: relative;
+}
+
+.news-block_position_first {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 47.56vw 49.22vw;
+    grid-template-rows: 232px;
+    grid-gap: 1.41vw;
+}
+
+.news-block__text-section{
+    margin-left: 3px;
+    width: 300px;
+    height: 233px;
+}
+
+.news-block__text {
+    margin: 14px 0 0 28px;
+    width: 253px;
+    word-spacing: 0;
+    line-height: 34px;
+}
+
+.news-block__extension-button {
+    bottom: 18px;
+    right: 11px;
+}
+
+.news-block__date-section {
+    display: none;
+}
+
+.news-block_position_second {
+    margin-top: 9px;
+    margin-left: 0;
+    width: 100vw;
+    height: 233px;
+    background-color: #f5c507;
+}
+
+.news-block__followers-number {
+    display: none;
+}
+
+.news-block__twitter-logo {
+    margin: 57px 0 0 83px;
+}
+
+.news-block__message-section {
+    position: relative;
+    margin: 0px 0 0px 66px;
+    display: inline-block;
+}
+
+.news-block__message-item {
+    width: 286px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+}
+
+.news-block__message-item_first {
+    margin: 0 0 7px 0;
+    background-image: url(/assets/images/message_block_1.png);
+}
+
+.news-block__message-item_second {
+    margin: 0 0 6px 0;
+    background-image: url(/assets/images/message_block_2.png);
+}
+
+.news-block__message-item_third {
+    margin: 0px 0 -5px 0;
+    background-image: url(/assets/images/message_block_3.png);
+}
+
+.news-block__message-item_fonts {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #8f8e8e;
+    font-family: "Arial";
+}
+
+.news-block__message {
+    display: block;
+    margin: -5px 0 0 30px;
+}
+
+.news-block__nickname {
+    display: block;
+    margin: 2px 0 0 29px;
+}
+
+.news-block__input-section {
+    position: relative;
+    top: 20px;
+    right: -14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-block__input-area {
+    margin: 0 0 0 -16px;
+    width: 200px;
+    height: 27px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+}
+
+.news-block__input-button {
+    width: 66px;
+    height: 29px;
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    background-color: #d89614;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Arial";
+}
+
+.news-block__extension-button_mob-vers {
+    display: none;
+}
+
+
+.main__scroll-bar {
+    display: none;
+}
+
+.main__device-support-info {
+    height: 464px;
+    padding-left: 30px;
+}
+
+.device-support__virtues-group {
+    display: none;
+}
+
+.device-support__title {
+    margin: -16px 0px 0px -15px;
+    font-size: 40px;
+}
+
+.device-support__image-group {
+    margin-top: 35px;
+}
+
+.footer {
+    max-width: 640px;
+}
+
+.logo_position_footer {
+    height: 40px;
+    position: absolute;
+    top: 2px;
+    left: 62px;
+}
+
+
+
 }
