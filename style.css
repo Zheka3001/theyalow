@@ -27,6 +27,11 @@
     align-items: center;
 }
 
+.logo_position_header {
+    margin-left: 139px;
+    margin-top: 27px;
+}
+
 .logo__icon {
     width: fit-content;
     height: fit-content;
