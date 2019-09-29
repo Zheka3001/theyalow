@@ -194,3 +194,64 @@
             .main__button-arrow_direction_left {
                 margin: 3px 2px 0 0;
             }
+
+    .main__description-columns {
+        height: 212px;
+        display: flex;
+        justify-content: center;
+        background-color: #f7f7f7;
+        background-image: url(./assets/images/description_section_background.png);
+        -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    }
+
+        .main__description-item {
+            width: 340px;
+            height: 212px;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            border-left: 1px solid #d4d4d4;
+        }
+
+            .main__description-item:last-child {
+                border-right: 1px solid #d4d4d4;
+            }
+
+        .main__description-icon_positioning_first {
+            margin: 60px 5px 0 0;
+        }
+
+        .main__description-icon_positioning_second {
+            margin: 36px 0 0 20px;
+        }
+
+        .main__description-icon_positioning_third {
+            margin: 52px 22px 0 0;
+        }
+
+        .main__description-name {
+            font-size: 27px;
+            letter-spacing: 0px;
+            color: #000000;
+            font-family: "Segoe UI", sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+
+        .main__description-name_positioning_first {
+            margin: 14px 0px 0px 20px;
+        }
+
+        .main__description-name_positioning_second {
+            margin: 18px 0 0 21px;
+        }
+
+        .main__description-name_positioning_third {
+            margin: 14px 18px 0 0;
+        }
+
+        
