@@ -484,3 +484,31 @@
     background-color: #F5C506;
     margin-right: 20px;
 }
+
+.footer {
+    position: relative;
+
+    height: 64px;
+
+    background-color: #4c4c4c;
+    -webkit-box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);  
+}
+
+.logo_position_footer {
+    position: absolute;
+    top: 2px;
+    left: 138px;
+}
+
+.logo__icon_size_small {
+    margin: 0;
+    width: 57px;
+    height: 57px;
+}
+
+.logo__title_font-size_small {
+    margin: 0 0 0 6px;
+    font-size: 29px;
+}
